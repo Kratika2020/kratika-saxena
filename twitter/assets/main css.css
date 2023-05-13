@@ -1,0 +1,81 @@
+body
+{
+    overflow-x : hidden;
+    margin : -10px 0px 0px -10px;
+    background-color : #202128;
+    font-family: Arial, sans-serif;
+    color : rgb(255,255,255) ;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.figures
+{
+    border-radius: 49px;
+    background: linear-gradient(145deg, #1d1e24, #22232b);
+    box-shadow:  21px 21px 42px #17181d,
+                 -21px -21px 42px #292a33;
+    width : 250px;
+    height : 250px;
+    text-align : center;
+    display: flex ;
+    align-items: center ;
+    padding : 10px 10px 10px 10px ;
+    margin-left : 20px ;
+    margin-right :20px ;
+    font-size: 36px ;
+   
+}
+
+
+#hashtag
+{
+    width : 500px;
+    height : 30px;
+    border : none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #1d1e24, #22232b);
+    box-shadow:  9px 9px 18px #0d0d10,
+                 -9px -9px 18px #333540;
+    font-size : 22px;
+    color : rgb(255,255,255) ;
+    padding : 10px 10px 10px 20px;
+}
+
+#sideimg
+{
+    width : 700px;
+    height : 500px;
+    padding : 50px 50px 50px 50px;
+    margin : 100px 30px 30px 30px;
+    font-size : 30px;
+    background-color : pink;
+    background-image : url("img1.webp");
+    background-size : cover;
+    border-radius: 49px;
+   
+    
+}
+
+.header
+{
+    border-radius: 49px;
+    background: linear-gradient(145deg, #1d1e24, #22232b);
+    box-shadow:  21px 21px 42px #17181d,
+                 -21px -21px 42px #292a33;
+    width : 600px;
+    height : 500px;
+    font-size : 58px;
+    padding : 100px 50px 50px 50px;
+    margin : 70px 0px 30px 100px;
+    
+}
+
+.graph
+{
+    border-radius: 49px;
+    background: linear-gradient(145deg, #1d1e24, #22232b);
+    box-shadow:  21px 21px 42px #17181d,
+                 -21px -21px 42px #292a33;
+}
